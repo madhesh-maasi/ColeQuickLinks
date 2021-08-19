@@ -1,0 +1,63 @@
+#workbenchPageContent {
+    left: -30px !important;
+    max-width: 1364px !important;
+  }
+  .DefaultDocuments .design 
+  {
+    background-image: url(../../ExternalRef/Images/Design.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .DefaultDocuments .Emails 
+  {
+    background-image: url(../../ExternalRef/Images/Emails.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .DefaultDocuments .projectdocuments 
+  {
+    background-image: url(../../ExternalRef/Images/ProjectDocuments.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .DefaultDocuments .sales 
+  {
+    background-image: url(../../ExternalRef/Images/Sales.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .DefaultDocuments .sitephotos 
+  {
+    background-image: url(../../ExternalRef/Images/SitePhotos.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .DefaultDocuments{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  
+  }
+.DefaultDocuments div.gallery {
+    margin: 5px;
+    /* border: 1px solid #ccc; */
+    width: 216px;
+  }
+  
+  .DefaultDocuments div.gallery:hover {
+    /* border: 1px solid #777; */
+  }
+  
+  .DefaultDocuments div.gallery div{
+    height:270px;
+  }
+  
+  .DefaultDocuments div.desc {
+    padding: 15px;
+    text-align: center;
+  }
